@@ -1,0 +1,38 @@
+body {
+  background-color: #ffe6e6;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-weight: normal;
+  background-color: #ad88c6;
+  padding: 20px 0;
+  color: #fff;
+  border-radius: 50px;
+}
+button {
+  background-color: #7469b6;
+  color: #fff;
+}
+input,
+button {
+  margin-top: 50px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+  button {
+    margin-top: 10px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
