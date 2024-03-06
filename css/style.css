@@ -36,3 +36,21 @@ button {
     flex-direction: column;
   }
 }
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+@media (max-width: 767px) {
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+}
